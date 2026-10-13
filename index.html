@@ -199,8 +199,8 @@
             const roll = document.getElementById('rollNo').value;
             // Convert marks to numbers using parseFloat
             const math = parseFloat(document.getElementById('mathMarks').value);
-            const science = parseFloat(document.getElementById('sciMarks').value);
-            const english = parseFloat(document.getElementById('engMarks').value);
+            const science = parseFloat(document.getElementById('PhyMarks').value);
+            const english = parseFloat(document.getElementById('ChemMarks').value);
 
             // 2. Calculate Total and Percentage
             const totalMarks = math + science + english;
@@ -211,8 +211,8 @@
                 name: name,
                 roll: roll,
                 math: math,
-                science: science,
-                english: english,
+                Physics: Physics,
+                CHemistry: Chemistry,
                 total: totalMarks,
                 percentage: percentage.toFixed(2) // keep 2 decimal places
             };
